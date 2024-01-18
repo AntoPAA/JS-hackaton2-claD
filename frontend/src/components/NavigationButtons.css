@@ -4,8 +4,16 @@
   right: 60px;
 }
 
+.next-button-hidden {
+  display: none;
+}
+
 .back-button {
   position: absolute;
   bottom: 50px;
   left: 60px;
+}
+
+.back-button-hidden {
+  display: none;
 }
