@@ -6,7 +6,7 @@ export const useProfileContext = () => useContext(ProfileContext);
 
 export function ProfileProvider({ children }) {
   const profileTemplate = {
-    hairColor: "",
+    hairColor: "White",
     hairType: "",
     hairCut: "",
     hairCondition: [""],
