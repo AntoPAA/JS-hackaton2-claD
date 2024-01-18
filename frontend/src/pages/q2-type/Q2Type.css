@@ -1,0 +1,16 @@
+.bob-container {
+  margin-bottom: 10px;
+}
+
+.unodos {
+  margin: 10px;
+  width: 170px;
+  height: 250px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.unodos.selected {
+  transform: scale(1.05);
+  opacity: 1;
+}
