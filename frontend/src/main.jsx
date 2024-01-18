@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
-import HairColor from "./pages/HairColor";
 import { ProfileProvider } from "./context/profileContext";
 
 import Login from "./pages/login/Login";
@@ -49,16 +48,11 @@ const router = createBrowserRouter([
         path: "/q4",
         element: <Q4Conditions />,
       },
-
       {
         path: "/q5",
         element: <Q5Wash />,
       },
     ],
-  },
-  {
-    path: "/hair-color",
-    element: <HairColor />,
   },
 ]);
 
