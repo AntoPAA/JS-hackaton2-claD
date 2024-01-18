@@ -22,7 +22,7 @@ export function ProfileProvider({ children }) {
     setProfile((prevProfile) => ({ ...prevProfile, hairType: newType }));
   };
 
-  const updateHaircut = (newCut) => {
+  const updateHairCut = (newCut) => {
     setProfile((prevProfile) => ({ ...prevProfile, hairCut: newCut }));
   };
 
@@ -45,7 +45,7 @@ export function ProfileProvider({ children }) {
       profile,
       updateHairColor,
       updateHairType,
-      updateHaircut,
+      updateHairCut,
       updateCondition,
       updateWashingFrequency,
     }),
@@ -53,7 +53,7 @@ export function ProfileProvider({ children }) {
       profile,
       updateHairColor,
       updateHairType,
-      updateHaircut,
+      updateHairCut,
       updateCondition,
       updateWashingFrequency,
     ]
