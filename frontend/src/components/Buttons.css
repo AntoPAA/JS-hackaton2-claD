@@ -1,0 +1,13 @@
+.input {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 258px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
