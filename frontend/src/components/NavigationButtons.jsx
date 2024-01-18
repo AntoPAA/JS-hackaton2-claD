@@ -6,7 +6,7 @@ import Next from "../assets/svg/next.svg";
 
 import "./NavigationButtons.css";
 
-function NavigationButtons({ back = "0", next = "0" }) {
+function NavigationButtons({ back = "0", next = "0", finish = "0" }) {
   return (
     <div>
       <Link
@@ -20,6 +20,12 @@ function NavigationButtons({ back = "0", next = "0" }) {
         className={next === "0" ? "next-button-hidden" : "next-button"}
       >
         <img src={Next} alt="next-button" />
+      </Link>
+      <Link
+        to={finish}
+        className={finish === "0" ? "next-button-hidden" : "next-button"}
+      >
+        <h2 className="finish-button"> FINISH</h2>
       </Link>
     </div>
   );

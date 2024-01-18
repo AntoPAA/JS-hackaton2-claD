@@ -19,6 +19,7 @@ import Navigation from "./pages/Navigation";
 import Market from "./pages/market/Market";
 import Camera from "./pages/camera/Camera";
 import Cart from "./pages/cart/Cart";
+import Fakepage from "./pages/fakepage";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Welcome />,
+      },
+      {
+        path: "/narket",
+        element: <Fakepage />,
       },
       {
         path: "/login",
@@ -71,6 +76,7 @@ const router = createBrowserRouter([
         path: "/market",
         element: <Market />,
       },
+
       {
         path: "/camera",
         element: <Camera />,

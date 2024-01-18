@@ -1,0 +1,27 @@
+.qr-code {
+  position: relative;
+  margin-top: 0;
+  z-index: 2;
+  opacity: 0;
+  animation: appearAnimation 0s forwards 2s;
+}
+
+@keyframes appearAnimation {
+  from {
+    margin-top: 350px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 350px;
+    opacity: 1;
+  }
+}
+
+.background-qr {
+  width: 100vw;
+  height: 1000px;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  z-index: 0;
+}
