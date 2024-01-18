@@ -9,9 +9,15 @@ function Camera() {
         src="https://antopaa.github.io/Publicimg/img/419725253_24939915742288977_2913105186580439560_n-ezgif.com-video-to-gif-converter.gif"
         alt=""
       />
+
+      <img
+        className="scanner"
+        src="https://antopaa.github.io/Publicimg/img/scanner.png"
+        alt=""
+      />
       <img
         className="qr-code"
-        src="https://antopaa.github.io/Publicimg/img/QRcode.png"
+        src="https://antopaa.github.io/Publicimg/img/codeQRR.png"
         alt=""
       />
     </div>
