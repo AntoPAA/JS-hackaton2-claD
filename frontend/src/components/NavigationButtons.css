@@ -17,3 +17,12 @@
 .back-button-hidden {
   display: none;
 }
+
+.finish-button {
+  position: absolute;
+  bottom: -0px;
+  left: -40px;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
