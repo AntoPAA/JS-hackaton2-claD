@@ -58,7 +58,7 @@ function CenterMode() {
       >
         {carouselData.map((item) => (
           <div key={item.label} className="carousel-item">
-            <img src={item.image} alt="" />
+            <img src={item.image} alt={`${item.label}-hairs`} />
           </div>
         ))}
       </Slider>

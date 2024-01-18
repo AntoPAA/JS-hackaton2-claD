@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import NavigationButtons from "../../components/NavigationButtons";
+
 import HeaderPage from "../../components/HeaderPage";
 import "./Q2Type.css";
 
@@ -42,6 +44,7 @@ function Q2Type() {
           />
         ))}
       </div>
+      <NavigationButtons back="/q1" next="/q3" />
     </div>
   );
 }
