@@ -74,7 +74,7 @@ function Q3Cut() {
 
   return (
     <div>
-      <HeaderPage page="02" totalPages="05" title="DEFINE YOUR HAIR TYPE" />
+      <HeaderPage page="03" totalPages="05" title="DEFINE YOUR HAIR TYPE" />
       <div className="four-container">
         {Object.entries(groupedImages).map(([label, images]) => (
           <div key={label} className="hair-type-container">
@@ -93,7 +93,6 @@ function Q3Cut() {
           </div>
         ))}
       </div>
-      <HeaderPage page="03" totalPages="05" title="TELL YOUR IDEAL CUT" />
       <NavigationButtons back="/q2" next="/q4" />
     </div>
   );
