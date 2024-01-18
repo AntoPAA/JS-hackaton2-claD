@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
+import { ProfileProvider } from "./context/profileContext";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ProfileProvider>
+      <RouterProvider router={router} />
+    </ProfileProvider>
   </React.StrictMode>
 );
