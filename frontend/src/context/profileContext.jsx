@@ -13,6 +13,7 @@ export function ProfileProvider({ children }) {
     washingFrequency: "Once a week",
   };
   const [profile, setProfile] = useState(profileTemplate);
+  const [popupDisplayed, setPopupDisplayed] = useState(false);
 
   const updateHairColor = (newColor) => {
     setProfile((prevProfile) => ({ ...prevProfile, hairColor: newColor }));
@@ -39,6 +40,9 @@ export function ProfileProvider({ children }) {
       washingFrequency: newWashingFrequency,
     }));
   };
+  const displayPopup = () => {
+    setPopupDisplayed(true);
+  };
 
   const contextValues = useMemo(
     () => ({
@@ -48,6 +52,8 @@ export function ProfileProvider({ children }) {
       updateHairCut,
       updateCondition,
       updateWashingFrequency,
+      popupDisplayed,
+      displayPopup,
     }),
     [
       profile,

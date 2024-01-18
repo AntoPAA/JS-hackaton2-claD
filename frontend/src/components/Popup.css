@@ -1,0 +1,33 @@
+/* Popup.css */
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  width: 330px;
+}
+
+.button-popup {
+  background-color: #000000;
+  color: white;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: Raleway;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.check {
+  width: 40px;
+}
