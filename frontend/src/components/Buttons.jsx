@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Buttons.css";
 
-function Button() {
+function Button({ type }) {
   const [choose, setChoose] = useState(false);
   return (
     <button
@@ -9,7 +9,7 @@ function Button() {
       type="button"
       onClick={() => setChoose(!choose)}
     >
-      Click me{" "}
+      {type}
     </button>
   );
 }
