@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import "./Q4Conditions.css";
-import "../../components/Buttons.css";
+import NavigationButtons from "../../components/NavigationButtons";
 import Buttons from "../../components/Buttons";
 import HeaderPage from "../../components/HeaderPage";
+
+import "./Q4Conditions.css";
+import "../../components/Buttons.css";
+
 
 function Q4Conditions() {
   const [conditions, setConditions] = useState([]);
@@ -58,6 +61,8 @@ function Q4Conditions() {
           addCondition={(value) => addCondition(value)}
         />
       </div>
+      <HeaderPage page="04" totalPages="05" title="TELL YOUR HAIR CONDITIONS" />
+      <NavigationButtons back="/q3" next="/q5" />
     </div>
   );
 }

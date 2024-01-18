@@ -1,0 +1,37 @@
+.carousel-container {
+  max-width: 100%;
+  max-height: 1000px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slick-center {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.carousel-item {
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+
+.carousel-item img:not(.slick-center img) {
+  opacity: 0.5;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+  .carousel-item img {
+    margin: 50px -140px;
+  }
+}

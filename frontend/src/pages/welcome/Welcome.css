@@ -1,0 +1,41 @@
+.welcome-page {
+  background-color: black;
+  height: 100vh;
+  text-decoration: none;
+}
+
+.p-logo-white {
+  margin-top: 90%;
+  animation: logoAnim 2s ease-in 400ms 1 alternate none;
+}
+@keyframes logoAnim {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.welcome-text {
+  margin-top: 90%;
+  text-decoration: none;
+  font-family: Raleway;
+  color: aliceblue;
+  animation: link-anim 4s ease-in 0s 1 alternate none;
+}
+
+@keyframes link-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
