@@ -1,0 +1,11 @@
+.all-skin {
+  margin-bottom: 10px;
+  opacity: 0.5;
+  transition: transform 0.5s ease;
+}
+
+.all-skin.selected {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  opacity: 1;
+}
