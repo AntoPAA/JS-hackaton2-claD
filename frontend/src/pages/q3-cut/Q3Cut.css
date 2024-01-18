@@ -1,0 +1,23 @@
+.short {
+  margin: 5px;
+  width: 100px;
+  height: 140px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.short.selected {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.four-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category-hair {
+  margin: 5px;
+}
