@@ -1,32 +1,35 @@
 import React, { useState } from "react";
 import NavigationButtons from "../../components/NavigationButtons";
+import { useProfileContext } from "../../context/profileContext";
 
 import HeaderPage from "../../components/HeaderPage";
 import "./Q2Type.css";
 
 function Q2Type() {
   const [selectedImage, setSelectedImage] = useState(null);
+  const { updateHairType } = useProfileContext();
 
-  const handleImageClick = (index) => {
+  const handleImageClick = (index, image) => {
     setSelectedImage((prevIndex) => (prevIndex === index ? null : index));
+    updateHairType(image.label);
   };
 
   const images = [
     {
       src: "https://antopaa.github.io/Publicimg/img/Bob component.png",
-      label: "coily",
+      label: "Coily",
     },
     {
       src: "https://antopaa.github.io/Publicimg/img/Group%2057.png",
-      label: "curly",
+      label: "Curly",
     },
     {
       src: "https://antopaa.github.io/Publicimg/img/Group%2059.png",
-      label: "wavy",
+      label: "Wavy",
     },
     {
       src: "https://antopaa.github.io/Publicimg/img/Group%2058.png",
-      label: "straight",
+      label: "Straight",
     },
   ];
   /* eslint-disable */
@@ -40,7 +43,7 @@ function Q2Type() {
             src={image.src}
             alt=""
             className={`unodos ${selectedImage === index ? "selected" : ""}`}
-            onClick={() => handleImageClick(index)}
+            onClick={() => handleImageClick(index, image)}
           />
         ))}
       </div>
