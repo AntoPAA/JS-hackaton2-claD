@@ -14,6 +14,10 @@ import Q2Type from "./pages/q2-type/Q2Type";
 import Q3Cut from "./pages/q3-cut/Q3Cut";
 import Q4Conditions from "./pages/q4-conditions/Q4Conditions";
 import Q5Wash from "./pages/q5-wash/Q5Wash";
+import Navigation from "./pages/Navigation";
+import Market from "./pages/market/Market";
+import Camera from "./pages/camera/Camera";
+import Cart from "./pages/cart/Cart";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/cares",
         element: <Cares />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
       {
         path: "/q1",
@@ -51,8 +59,22 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/login",
-    element: <Login />,
+    path: "/",
+    element: <Navigation />,
+    children: [
+      {
+        path: "/market",
+        element: <Market />,
+      },
+      {
+        path: "/camera",
+        element: <Camera />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+    ],
   },
 ]);
 

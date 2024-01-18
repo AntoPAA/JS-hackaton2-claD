@@ -1,4 +1,5 @@
 import React from "react";
+import NavigationButtons from "../../components/NavigationButtons";
 
 import LogoP from "../../assets/logo.svg";
 
@@ -11,7 +12,6 @@ function Disclaimer() {
       <h1 className="login-title">
         Before meeting <br /> your beauty counsellor
       </h1>
-
       <div className="dis-line" />
       <p className="login-text">
         Embark on a personalized beauty journey by sharing insights about your
@@ -19,6 +19,7 @@ function Disclaimer() {
         Because you're worth it!
         <br />
       </p>
+      <NavigationButtons next="/cares" />
     </div>
   );
 }

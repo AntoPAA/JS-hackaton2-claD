@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React, { useState } from "react";
+import NavigationButtons from "../../components/NavigationButtons";
 import HeaderPage from "../../components/HeaderPage";
 import "./Q3Cut.css";
 
@@ -92,6 +93,8 @@ function Q3Cut() {
           </div>
         ))}
       </div>
+      <HeaderPage page="03" totalPages="05" title="TELL YOUR IDEAL CUT" />
+      <NavigationButtons back="/q2" next="/q4" />
     </div>
   );
 }
