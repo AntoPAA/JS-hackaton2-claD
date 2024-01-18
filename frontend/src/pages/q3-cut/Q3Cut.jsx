@@ -2,58 +2,61 @@
 import React, { useState } from "react";
 import NavigationButtons from "../../components/NavigationButtons";
 import HeaderPage from "../../components/HeaderPage";
+import { useProfileContext } from "../../context/profileContext";
+
 import "./Q3Cut.css";
 
 const images = [
   {
     src: "https://antopaa.github.io/Publicimg/img/short.png",
-    label: "short",
+    label: "Short",
     index: 0,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/short1.png",
-    label: "short",
+    label: "Short",
     index: 1,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/short2.png",
-    label: "short",
+    label: "Short",
     index: 2,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/mid.png",
-    label: "MID-LENGTH",
+    label: "Mid-length",
     index: 3,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/mid1.png",
-    label: "MID-LENGTH",
+    label: "Mid-length",
     index: 4,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/mid2.png",
-    label: "MID-LENGTH",
+    label: "Mid-length",
     index: 5,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/long.png",
-    label: "long",
+    label: "Long",
     index: 6,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/long1.png",
-    label: "long",
+    label: "Long",
     index: 7,
   },
   {
     src: "https://antopaa.github.io/Publicimg/img/long2.png",
-    label: "long",
+    label: "Long",
     index: 8,
   },
 ];
 
 function Q3Cut() {
   const [selectedImage, setSelectedImage] = useState(null);
+  const { updateHairCut } = useProfileContext();
 
   const handleImageClick = (groupLabel, index) => {
     const currentIndex = images.findIndex(
@@ -62,6 +65,7 @@ function Q3Cut() {
     setSelectedImage((prevIndex) =>
       prevIndex === currentIndex ? null : currentIndex
     );
+    updateHairCut(groupLabel);
   };
 
   const groupedImages = images.reduce((acc, image) => {
