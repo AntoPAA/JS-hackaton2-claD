@@ -1,0 +1,35 @@
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.values-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 15rem;
+}
+
+.values-container button {
+  background: none;
+  border: none;
+}
+
+.value {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: grey;
+}
+
+.value:hover {
+  font-weight: bold;
+}
+
+.value.selected {
+  color: black;
+  font-weight: bold;
+}
