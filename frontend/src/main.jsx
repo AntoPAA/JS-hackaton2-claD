@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import { ProfileProvider } from "./context/profileContext";
 
+import Welcome from "./pages/welcome/Welcome";
 import Login from "./pages/login/Login";
 import Disclaimer from "./pages/disclaimer/Disclaimer";
 import Cares from "./pages/cares/Cares";
@@ -25,16 +26,20 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: "/",
+        element: <Welcome />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
+      },
+      {
         path: "/disclaimer",
         element: <Disclaimer />,
       },
       {
         path: "/cares",
         element: <Cares />,
-      },
-      {
-        path: "/login",
-        element: <Login />,
       },
       {
         path: "/q1",
