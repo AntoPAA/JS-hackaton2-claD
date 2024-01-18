@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .header {
@@ -29,8 +31,16 @@
   font-size: 3rem;
 }
 
+.page-hidden {
+  display: none;
+}
+
 .total-pages {
   font-size: 1.2rem;
+}
+
+.total-pages-hidden {
+  display: none;
 }
 
 .title {
@@ -47,6 +57,4 @@
   left: 0;
   height: 0.2rem;
   background-color: #e32847;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }

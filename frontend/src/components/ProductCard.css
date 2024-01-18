@@ -1,0 +1,14 @@
+.product-card {
+  display: block;
+}
+
+.product-card-image {
+  height: 4rem;
+}
+
+.product-card-title {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
