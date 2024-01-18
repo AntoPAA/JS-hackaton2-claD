@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import "./Buttons.css";
 
-function Button({ type }) {
+function Button({ type, addCondition }) {
   const [choose, setChoose] = useState(false);
+  const handleClick = () => {
+    setChoose(!choose);
+    addCondition(type);
+  };
+
   return (
     <button
       className={`input ${choose ? "black" : ""}`}
       type="button"
-      onClick={() => setChoose(!choose)}
+      onClick={() => handleClick()}
     >
       {type}
     </button>
