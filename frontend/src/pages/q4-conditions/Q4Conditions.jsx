@@ -6,7 +6,6 @@ import HeaderPage from "../../components/HeaderPage";
 import "./Q4Conditions.css";
 import "../../components/Buttons.css";
 
-
 function Q4Conditions() {
   const [conditions, setConditions] = useState([]);
   const addCondition = (condition) => {
