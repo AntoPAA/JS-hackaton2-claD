@@ -21,10 +21,6 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/login",
-        element: <Login />,
-      },
-      {
         path: "/disclaimer",
         element: <Disclaimer />,
       },
@@ -53,6 +49,10 @@ const router = createBrowserRouter([
         element: <Q5Wash />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);
 
