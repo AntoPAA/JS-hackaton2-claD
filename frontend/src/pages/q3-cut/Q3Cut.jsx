@@ -55,8 +55,11 @@ const images = [
 ];
 
 function Q3Cut() {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const { updateHairCut } = useProfileContext();
+  const { profile, updateHairCut } = useProfileContext();
+
+  const initialImage = images.findIndex((img) => img.label === profile.hairCut);
+
+  const [selectedImage, setSelectedImage] = useState(initialImage);
 
   const handleImageClick = (groupLabel, index) => {
     const currentIndex = images.findIndex(

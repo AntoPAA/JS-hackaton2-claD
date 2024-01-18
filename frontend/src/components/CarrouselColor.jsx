@@ -7,16 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./CarrouselColor.css";
 
 function CenterMode() {
-  const { updateHairColor } = useProfileContext();
-
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "-160px",
-    slidesToShow: 3,
-    speed: 500,
-  };
+  const { profile, updateHairColor } = useProfileContext();
 
   const carouselData = [
     {
@@ -41,6 +32,20 @@ function CenterMode() {
     },
   ];
 
+  const initialIndex = carouselData.findIndex(
+    (item) => item.label === profile.hairColor
+  );
+
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "-160px",
+    slidesToShow: 3,
+    speed: 500,
+    initialSlide: initialIndex,
+  };
+
   const handleAfterChange = (index) => {
     updateHairColor(carouselData[index].label);
   };
@@ -55,6 +60,7 @@ function CenterMode() {
         slidesToShow={settings.slidesToShow}
         speed={settings.speed}
         afterChange={handleAfterChange}
+        initialSlide={settings.initialSlide}
       >
         {carouselData.map((item) => (
           <div key={item.label} className="carousel-item">

@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import NavigationButtons from "../../components/NavigationButtons";
 import Buttons from "../../components/Buttons";
 import HeaderPage from "../../components/HeaderPage";
+import { useProfileContext } from "../../context/profileContext";
 
 import "./Q4Conditions.css";
 import "../../components/Buttons.css";
 
 function Q4Conditions() {
-  const [conditions, setConditions] = useState([]);
+  const { profile, updateCondition } = useProfileContext();
+  const [conditions, setConditions] = useState(profile.hairCondition);
+
   const addCondition = (condition) => {
     let newConditions = conditions;
     if (newConditions.includes(condition)) {
@@ -16,6 +19,7 @@ function Q4Conditions() {
       newConditions.push(condition);
     }
     setConditions(newConditions);
+    updateCondition(newConditions);
   };
 
   return (
@@ -60,7 +64,6 @@ function Q4Conditions() {
           addCondition={(value) => addCondition(value)}
         />
       </div>
-      <HeaderPage page="04" totalPages="05" title="TELL YOUR HAIR CONDITIONS" />
       <NavigationButtons back="/q3" next="/q5" />
     </div>
   );

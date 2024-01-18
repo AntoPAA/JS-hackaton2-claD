@@ -6,13 +6,7 @@ import HeaderPage from "../../components/HeaderPage";
 import "./Q2Type.css";
 
 function Q2Type() {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const { updateHairType } = useProfileContext();
-
-  const handleImageClick = (index, image) => {
-    setSelectedImage((prevIndex) => (prevIndex === index ? null : index));
-    updateHairType(image.label);
-  };
+  const { profile, updateHairType } = useProfileContext();
 
   const images = [
     {
@@ -32,6 +26,18 @@ function Q2Type() {
       label: "Straight",
     },
   ];
+
+  const initialImage = images.findIndex(
+    (img) => img.label === profile.hairType
+  );
+
+  const [selectedImage, setSelectedImage] = useState(initialImage);
+
+  const handleImageClick = (index, image) => {
+    setSelectedImage((prevIndex) => (prevIndex === index ? null : index));
+    updateHairType(image.label);
+  };
+
   /* eslint-disable */
   return (
     <div>

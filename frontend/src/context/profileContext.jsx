@@ -9,7 +9,7 @@ export function ProfileProvider({ children }) {
     hairColor: "White",
     hairType: "",
     hairCut: "",
-    hairCondition: [""],
+    hairCondition: [],
     washingFrequency: "Once a week",
   };
   const [profile, setProfile] = useState(profileTemplate);

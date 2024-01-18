@@ -6,9 +6,7 @@ import { useProfileContext } from "../context/profileContext";
 import "./SliderVertical.css";
 
 function SliderVertical() {
-  const [value, setValue] = useState(66);
-  const [selectedValueIndex, setSelectedValueIndex] = useState(1);
-  const { updateWashingFrequency } = useProfileContext();
+  const { profile, updateWashingFrequency } = useProfileContext();
 
   const values = [
     "Less than once a week",
@@ -16,6 +14,28 @@ function SliderVertical() {
     "3 to 5 days interval",
     "Everyday",
   ];
+
+  const initialValueIndex = values.findIndex(
+    (val) => val === profile.washingFrequency
+  );
+
+  let initialValue = 0;
+  if (initialValueIndex === 0) {
+    initialValue = 100;
+  }
+  if (initialValueIndex === 1) {
+    initialValue = 66;
+  }
+  if (initialValueIndex === 2) {
+    initialValue = 33;
+  }
+  if (initialValueIndex === 3) {
+    initialValue = 0;
+  }
+
+  const [value, setValue] = useState(initialValue);
+  const [selectedValueIndex, setSelectedValueIndex] =
+    useState(initialValueIndex);
 
   const handleSliderChange = (event, newValue) => {
     setValue(newValue);
