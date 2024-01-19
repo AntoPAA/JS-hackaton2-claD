@@ -5,10 +5,8 @@
 ![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
 by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
 
-![Upload![React_Logo_SVG svg](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/733b35c1-3186-4f63-8aba-9b3cca78952c)
-![CSS3_logo svg](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/a082ab19-d3bb-47fb-a1f0-e0286e0f0332)
-![Figma-logo (1)](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/848183a7-73a6-4191-997c-d80a579b761b)
-ing JavaScript-logo (2).png…]()
+![figma-logo-0 (1)](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/877e283e-8e69-4cbc-bb48-cfe0041468cc)
+
 ![JavaScript-logo (2)](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/8f957f12-d30b-4868-8d3f-627a2b5b2638)
 
 
