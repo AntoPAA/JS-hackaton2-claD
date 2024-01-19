@@ -6,9 +6,6 @@
 by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
 </div>
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying a pedagogical tool.
-
 ##  Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
 
 ### Windows users
