@@ -9,9 +9,9 @@ by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
 
 ![sdfsdfsdffddfssdf](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/8112b3f7-463d-40dc-8374-69073c749da9)
 
-Persona est une application permettant d'avoir un conseiller soin & beauté dans votre poche exclusivement mobile pour une meilleur accessibilité.
+Persona est une application permettant d'avoir un conseiller soin & beauté dans votre poche exclusivement mobile pour une meilleure accessibilité.
 
-elle permet de proposer des produits personnalisés qui correspondrais le mieux selon le profil de la personne. 
+elle permet de proposer des produits personnalisés qui correspondraient le mieux selon le profil de la personne. 
 
 
 
@@ -33,12 +33,10 @@ elle permet de proposer des produits personnalisés qui correspondrais le mieux 
 
 ❤️❤️ et pour finir nous remercions les équipes de la wildcodeschool et de l'Oréal pour le hackaton ❤️❤️
 
+si vous avez des questions n'hésitez pas, et le code se trouve sur le dev 😉
+
 
 </div>
-
-
-
-
 
 
 ##  Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
