@@ -5,6 +5,13 @@
 ![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
 by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
 
+##  L'application 
+
+![sdfsdfsdffddfssdf](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/8112b3f7-463d-40dc-8374-69073c749da9)
+
+Persona est une application permettant d'avoir un conseiller soin & beauté dans votre poche exclusivement mobile pour une meilleur accessibilité.
+
+elle permet de proposer des produits personnalisés qui correspondrais le mieux selon le profil de la personne. 
 
 
 
@@ -19,6 +26,13 @@ by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
 <img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/2dd46c84-12c8-4f0d-ad55-d518be5ddd75" width="100">
 
 </div>
+
+##  Remerciement 
+
+![LOreal-Logo](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/80a1b69b-0eab-47e3-9460-086966e988c3)
+
+❤️❤️ et pour finir nous remercions les équipes de la wildcodeschool et de l'Oréal pour le hackaton ❤️❤️
+
 
 </div>
 
