@@ -1,4 +1,4 @@
-## Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
+  ## Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
 ![sdfdfssfdfdffd](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/50930bd9-14c1-49b7-95a3-4f1e44926508)
 
 ## Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
