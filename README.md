@@ -1,6 +1,6 @@
 <div align="center">
 
-## Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
+##  <span style="color:blue;">Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté</span>
 
 ![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
 
