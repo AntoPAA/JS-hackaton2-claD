@@ -1,9 +1,45 @@
-## Concept
+<div align="center">
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying a pedagogical tool.
+##  Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
 
-## Toute les commandes/fonctionnalité du template d'origine 
+![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
+by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
+
+##  L'application 
+
+![sdfsdfsdffddfssdf](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/8112b3f7-463d-40dc-8374-69073c749da9)
+
+Persona est une application permettant d'avoir un conseiller soin & beauté dans votre poche exclusivement mobile pour une meilleure accessibilité.
+
+elle permet de proposer des produits personnalisés qui correspondraient le mieux selon le profil de la personne. 
+
+
+
+##  Nous avons principalement utilisé les languages et framwork suivant :
+
+<div align="center">
+
+
+<img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/dc567c80-e873-486a-a416-3d567e7624c7" width="100">
+<img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/877e283e-8e69-4cbc-bb48-cfe0041468cc" width="100">
+<img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/8f957f12-d30b-4868-8d3f-627a2b5b2638" width="100">
+<img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/2dd46c84-12c8-4f0d-ad55-d518be5ddd75" width="100">
+
+</div>
+
+##  Remerciement 
+
+![LOreal-Logo](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/80a1b69b-0eab-47e3-9460-086966e988c3)
+
+❤️❤️ et pour finir nous remercions les équipes de la wildcodeschool et de l'Oréal pour le hackaton ❤️❤️
+
+si vous avez des questions n'hésitez pas, et le code se trouve sur le dev 😉
+
+
+</div>
+
+
+##  Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
 
 ### Windows users
 
