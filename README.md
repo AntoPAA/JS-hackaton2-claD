@@ -5,12 +5,11 @@
 ![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
 
 </div>
-## Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
 
 This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
 It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying a pedagogical tool.
 
-## Setup & Use
+##  Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
 
 ### Windows users
 
