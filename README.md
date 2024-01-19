@@ -25,7 +25,7 @@ elle permet de proposer des produits personnalisés qui correspondraient le mieu
 <img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/8f957f12-d30b-4868-8d3f-627a2b5b2638" width="100">
 <img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/2dd46c84-12c8-4f0d-ad55-d518be5ddd75" width="100">
 
-le figma ci-dessous : 
+le figma juste ici : 
 https://www.figma.com/file/KfStHwf7IFOT2Ud3ka30dc/Hackaton-de-la-D?type=design&mode=design&t=VlJrAbQagJqMYKPX-0
 
 </div>
