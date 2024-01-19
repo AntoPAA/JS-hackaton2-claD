@@ -4,7 +4,11 @@
 
 ![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
 by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
+
+##  Nous avons principalement utilisé les languages et framwork suivant :
+
 <div align="center">
+
 
 <img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/dc567c80-e873-486a-a416-3d567e7624c7" width="100">
 <img src="https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/877e283e-8e69-4cbc-bb48-cfe0041468cc" width="100">
