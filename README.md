@@ -1,6 +1,10 @@
-  ## Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
-![sdfdfssfdfdffd](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/50930bd9-14c1-49b7-95a3-4f1e44926508)
+<div align="center">
 
+## Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
+
+![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
+
+</div>
 ## Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
 
 This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
