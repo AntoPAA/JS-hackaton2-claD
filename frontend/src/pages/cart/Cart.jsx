@@ -9,7 +9,7 @@ function Cart() {
   return (
     <div>
       <img src={LogoB} className="logo-top-black" alt="logo-black" />
-      <p className="drop">5€ offered from 25€ of purchase</p>
+      <div className="promo">5€ offered from 25€ of purchase</div>
       <h1 className="cart-title">YOUR CART</h1>
       <div className="cart-line" />
       <img src={cart} className="cart" alt="cart" />

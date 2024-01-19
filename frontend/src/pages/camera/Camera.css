@@ -1,18 +1,18 @@
 .qr-code {
   position: relative;
   margin-top: 0;
-  z-index: 2;
+  z-index: 3;
   opacity: 0;
   animation: appearAnimation 0s forwards 2s;
 }
 
 @keyframes appearAnimation {
   from {
-    margin-top: 350px;
+    margin-top: 520px;
     opacity: 0;
   }
   to {
-    margin-top: 350px;
+    margin-top: 520px;
     opacity: 1;
   }
 }
@@ -24,4 +24,12 @@
   top: -80px;
   left: 0;
   z-index: 0;
+}
+
+.scanner {
+  position: relative;
+  margin-top: 0;
+  z-index: 2;
+  opacity: 1;
+  margin-bottom: -480px;
 }
