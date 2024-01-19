@@ -6,6 +6,8 @@ import HeaderPage from "../../components/HeaderPage";
 import SliderVertical from "../../components/SliderVertical";
 import NavigationButtons from "../../components/NavigationButtons";
 
+import LogoB from "../../assets/logo.svg";
+
 function Q5Wash() {
   const { updateWashingFrequency } = useProfileContext();
   const navigate = useNavigate();
@@ -18,6 +20,7 @@ function Q5Wash() {
 
   return (
     <div>
+      <img src={LogoB} className="logo-top-black" alt="logo-black" />
       <HeaderPage page="05" totalPages="05" title="WASHING FREQUENCY" />
       <SliderVertical />
       <NavigationButtons

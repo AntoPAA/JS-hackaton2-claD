@@ -4,6 +4,7 @@ import Buttons from "../../components/Buttons";
 import HeaderPage from "../../components/HeaderPage";
 import { useProfileContext } from "../../context/profileContext";
 
+import LogoB from "../../assets/logo.svg";
 import "./Q4Conditions.css";
 import "../../components/Buttons.css";
 
@@ -24,11 +25,8 @@ function Q4Conditions() {
 
   return (
     <div>
-      <HeaderPage
-        page="04"
-        totalPages="05"
-        title="DEFINE YOUR HAIR CONDITIONS"
-      />
+      <img src={LogoB} className="logo-top-black" alt="logo-black" />
+      <HeaderPage page="04" totalPages="05" title="YOUR HAIR CONDITIONS" />
       <div className="allButtons">
         <Buttons type="Normal" addCondition={(value) => addCondition(value)} />
         <Buttons
