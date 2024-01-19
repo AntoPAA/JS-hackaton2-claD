@@ -3,7 +3,7 @@
 ##  Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
 
 ![Image Alt Text](https://github.com/AntoPAA/JS-hackaton2-claD/assets/145461029/5b4d5756-1c87-4d2b-ac69-537b8945c0b0)
-
+by Maxim , Thibaud , Antonin , Olivier , Grégory , Sébastien
 </div>
 
 This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
