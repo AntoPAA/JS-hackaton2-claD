@@ -1,4 +1,9 @@
-# Concept
+## Bonjour et bienvenue sur le Repos GitHub de Persona votre conseiller beauté
+
+<p style="color:red;">React</p>
+
+
+## Nous avons ici utilisé un template fourni par la WildCodeSchool ci-dessous se trouve le tuto 
 
 This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
 It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying a pedagogical tool.
