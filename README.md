@@ -33,7 +33,7 @@ elle permet de proposer des produits personnalisés qui correspondraient le mieu
 
 ❤️❤️ et pour finir nous remercions les équipes de la wildcodeschool et de l'Oréal pour le hackaton ❤️❤️
 
-si vous avez des questions n'hésitez pas, et le code se trouve sur le dev 😉
+si vous avez des questions n'hésitez pas
 
 
 </div>
