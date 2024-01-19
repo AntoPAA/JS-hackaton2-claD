@@ -1,0 +1,11 @@
+.cart {
+  margin-top: 0px;
+}
+
+.cart-title {
+  text-align: center;
+  font-family: Raleway;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  margin: 40px 0 40px 0;
+}

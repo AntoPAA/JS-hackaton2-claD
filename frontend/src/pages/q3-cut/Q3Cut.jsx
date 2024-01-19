@@ -4,6 +4,7 @@ import NavigationButtons from "../../components/NavigationButtons";
 import HeaderPage from "../../components/HeaderPage";
 import { useProfileContext } from "../../context/profileContext";
 
+import LogoB from "../../assets/logo.svg";
 import "./Q3Cut.css";
 
 const images = [
@@ -81,6 +82,7 @@ function Q3Cut() {
 
   return (
     <div>
+      <img src={LogoB} className="logo-top-black" alt="logo-black" />
       <HeaderPage page="03" totalPages="05" title="DEFINE YOUR HAIR TYPE" />
       <div className="four-container">
         {Object.entries(groupedImages).map(([label, images]) => (

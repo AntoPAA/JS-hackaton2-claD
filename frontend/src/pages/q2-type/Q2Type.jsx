@@ -3,6 +3,7 @@ import NavigationButtons from "../../components/NavigationButtons";
 import { useProfileContext } from "../../context/profileContext";
 
 import HeaderPage from "../../components/HeaderPage";
+import LogoB from "../../assets/logo.svg";
 import "./Q2Type.css";
 
 function Q2Type() {
@@ -41,6 +42,7 @@ function Q2Type() {
   /* eslint-disable */
   return (
     <div>
+      <img src={LogoB} className="logo-top-black" alt="logo-black" />
       <HeaderPage page="02" totalPages="05" title="DEFINE YOUR HAIR TYPE" />
       <div className="four-container">
         {images.map((image, index) => (

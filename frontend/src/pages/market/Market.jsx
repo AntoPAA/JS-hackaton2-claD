@@ -1,4 +1,6 @@
 import React from "react";
+
+import LogoB from "../../assets/logo.svg";
 import HeaderPage from "../../components/HeaderPage";
 
 import "./Market.css";
@@ -61,6 +63,7 @@ function Market() {
 
   return (
     <div className="market-page">
+      <img src={LogoB} className="logo-top-black" alt="logo-black" />
       <div className="promo">5€ offered from 25€ of purchase</div>
       <HeaderPage title="Based on your results" />
       <MarketContainer products={profileBasedProducts} />
